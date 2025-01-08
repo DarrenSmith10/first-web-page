@@ -7,6 +7,7 @@
 </head>
 <!-- This is my first form test -->
 <body>
+    <h1><b>Contact Form</b></h1>
     <form>
        <label>Name</label>
        <input type="text">
@@ -29,6 +30,21 @@
         <input type="radio">
         <label>Tel No:</label>
 
+    </form>
+    <form>
+        <label for="age">Please select your age group:</label>
+        <select id="age" name="age">
+            <option value="18-24">18-24</option>
+            <option value="25-34">25-34</option>
+            <option value="35-44">35-44</option>
+            <option value="45-54">45-54</option>
+        </select>
+    </form>
+    <form>
+        <p><label for="enter">For more additional information enter here:</label></p>
+        <textarea id="enter" name="enter" rows="4" cols="50">Enter some details here.</textarea>
+        <br>
+        <input type="submit" value="Submit">
     </form>
 </body>
 </html>
